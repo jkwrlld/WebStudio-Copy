@@ -68,3 +68,16 @@ margin-right: 30px;
 .Ul-li3:not(:last-child){
     margin-right: 30px;
 }
+
+.footer-address{
+    padding-top: 20px;
+    padding-bottom: 9px;
+}
+
+.footer-ul {
+    display: block;
+    list-style: none;
+}
+.footer-contact{
+    padding-top: 9px;
+}
