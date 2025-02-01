@@ -51,3 +51,20 @@
 .li:not(:last-child) {
 margin-right: 30px;
 }
+.photo-ul{
+    display: flex;
+    list-style: none;
+    padding-top: 30px;
+} 
+.photo-li:not(:last-child){
+margin-right: 30px;
+}
+.ul3{
+    display: flex;
+    list-style: none;
+    padding-top: 30px;
+    padding-bottom: 154px;
+}
+.Ul-li3:not(:last-child){
+    margin-right: 30px;
+}
