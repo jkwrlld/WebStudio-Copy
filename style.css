@@ -106,3 +106,39 @@ padding-top: 9px;
 .our-team-h2{
     text-align: center;
 }
+.advantages-ul{
+    display: flex;
+  list-style: none;
+}
+.advantages-title::before{
+    content:"" ;
+    background-image: url("./antenna1.png");
+  display: block;
+  width: 70px;
+  height: 70px;
+  margin-left: 100px;
+}
+.advantages-title2::before{
+    content:"" ;
+    background-image: url("./clock1.png");
+  display: block;
+  width: 70px;
+  height: 70px;
+  margin-left: 100px;
+}
+.advantages-title3::before{
+    content:"" ;
+    background-image: url("./diagram1\(1\).png");
+  display: block;
+  width: 70px;
+  height: 70px;
+  margin-left: 100px;
+}
+.advantages-title4::before{
+    content:"" ;
+    background-image: url("./astronaut1.png");
+  display: block;
+  width: 70px;
+  height: 70px;
+  margin-left: 100px;
+}
