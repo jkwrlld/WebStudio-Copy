@@ -142,3 +142,20 @@ padding-top: 9px;
   height: 70px;
   margin-left: 100px;
 }
+
+.hero-button {
+    display: block;
+    width: 216px;
+    height: 50px;
+    margin: 0 auto;
+    background-color: var(--button);
+    color: var(--title);
+    border: none;
+    outline: none;
+    margin-top: 30px;
+}
+
+:root {
+    --button: #2196F3;
+    --title: #FFFFFF
+}
