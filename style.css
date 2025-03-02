@@ -72,6 +72,7 @@ padding-bottom: 154px;
 .our-team-img{
     width: 270px;
     height: 260px;
+    
 }
 .our-team-li:not(:last-child){
 margin-right: 30px;
@@ -112,35 +113,48 @@ padding-top: 9px;
 }
 .advantages-title::before{
     content:"" ;
-    background-image: url("./antenna1.png");
+    background-image: url("./img/antenna1\(1\).png");
   display: block;
   width: 70px;
   height: 70px;
   margin-left: 100px;
+  -webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.75);
+  
 }
 .advantages-title2::before{
     content:"" ;
-    background-image: url("./clock1.png");
+    background-image: url("./img/clock1\(1\).png");
   display: block;
   width: 70px;
   height: 70px;
   margin-left: 100px;
+  -webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.75);
 }
 .advantages-title3::before{
     content:"" ;
-    background-image: url("./diagram1\(1\).png");
+    background-image: url("./img/diagram1\(2\).png");
   display: block;
   width: 70px;
   height: 70px;
   margin-left: 100px;
+  -webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.75);
 }
 .advantages-title4::before{
     content:"" ;
-    background-image: url("./astronaut1.png");
+    background-image: url("./img/astronaut1\(1\).png");
   display: block;
   width: 70px;
   height: 70px;
   margin-left: 100px;
+  -webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.75);
 }
 
 .hero-button {
@@ -158,4 +172,16 @@ padding-top: 9px;
 :root {
     --button: #2196F3;
     --title: #FFFFFF
+}
+
+.our-team-li {
+    -webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.75);
+}
+
+.about-us-img {
+    -webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.75);
 }
