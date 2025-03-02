@@ -24,6 +24,7 @@
 .header {
     padding-top: 24px;
     padding-bottom: 25px;
+    background-color: var(--title);
 }
 .header-a {
     margin-right: 92px;
@@ -43,6 +44,9 @@
 .hero{
     padding-top: 200px;
     padding-bottom: 280px;
+    background-image: url("./img/Img\(22\).webp");
+    
+    
 }
 
 .about-us-h2{
@@ -171,7 +175,15 @@ box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.75);
 
 :root {
     --button: #2196F3;
-    --title: #FFFFFF
+    --title: #FFFFFF;
+    --chor: #212121;
+    --seriy: #757575;
+    --beliy: #F5F4FA;
+    --chornil: #000000;
+    --charch: #2F303A;
+    --sirom: #C4C4C4;
+    --balni: #ECECEC;
+
 }
 
 .our-team-li {
@@ -184,4 +196,25 @@ box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.75);
     -webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.75);
 -moz-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.75);
 box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.75);
+}
+
+.overlay {
+
+
+position: absolute;
+width: 1600px;
+height: 600px;
+left: 0px;
+top: 80px;
+
+background: rgba(47, 48, 58, 0.4);
+
+}
+
+.our-team {
+    background-color: var(--beliy);
+}
+
+.footer {
+    background-color: var(--charch);
 }
