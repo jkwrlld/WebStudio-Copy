@@ -1,223 +1,269 @@
-
-
 .nav-ul {
-    display: flex;
-    list-style: none;
-    margin-right: 344px;
+  display: flex;
+  list-style: none;
+  margin-right: 344px;
 }
 
 .header-ul {
-    display: flex;
-    list-style: none;
+  display: flex;
+  list-style: none;
 }
 
 .qwe {
-    display: flex;
+  display: flex;
 }
 
 .container {
-    width: 1200px;
-    padding: 0 15px;
-    margin: 0 auto;
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 .header {
-    padding-top: 24px;
-    padding-bottom: 25px;
-    background-color: var(--title);
+  padding-top: 24px;
+  padding-bottom: 25px;
+  background-color: var(--title);
 }
 .header-a {
-    margin-right: 92px;
+  margin-right: 92px;
 }
 
 .nav-li {
-    margin-left: 50px;
-    margin-right: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
-.advantages-ul{
-    display: flex;
-    list-style: none;
+.advantages-ul {
+  display: flex;
+  list-style: none;
+  padding-top: 94px;
 }
-.advantages-li:not(:last-child){
-    margin-right: 30px;
-}
-.hero{
-    padding-top: 200px;
-    padding-bottom: 280px;
-    background-image: url("./img/Img\(22\).webp");
-    background-repeat: no-repeat;
-    position: relative;
-    
-    
+.advantages-li:not(:last-child) {
+  margin-right: 30px;
 }
 
-.about-us-h2{
-    padding-top: 132px;
-    padding-bottom: 50px;
-}
-.about-us-ul{
-    display: flex;
-    list-style: none;
-    padding-bottom: 174px;
-}
-.about-us-li:not(:last-child){
-    margin-right: 30px;
-}
-.about-us-img{
-    width: 370px;
-    height: 294px;
-}
-.our-team-h2{
-    padding-bottom: 50px;
-}
-.our-team-ul{
-    display: flex;
-list-style: none;
-padding-bottom: 154px;
-}
-.our-team-img{
-    width: 270px;
-    height: 260px;
-    
-}
-.our-team-li:not(:last-child){
-margin-right: 30px;
-}
-.our-team-h4{
-    padding-right: 183px;
-}
-.our-team-p{
-    padding-right: 162px;
-}
-.footer-ul{
-    display: block;
-    list-style: none;
-}
-.footer-address{
-    padding-top: 20px;
-    padding-bottom: 9px;
-}
-
-.footer-contact{
-padding-top: 9px;
-}
-
-.hero-title {
-    text-align: center;
+.hero {
+  padding-top: 200px;
+  padding-bottom: 280px;
+  background-image: url("./img2/Img\(22\).webp");
+  background-repeat: no-repeat;
+  position: relative;
 }
 
 .about-us-h2 {
-    text-align: center;
+  padding-top: 132px;
+  padding-bottom: 50px;
 }
-
-.our-team-h2{
-    text-align: center;
+.about-us-ul {
+  display: flex;
+  list-style: none;
+  padding-bottom: 174px;
 }
-.advantages-ul{
-    display: flex;
+.about-us-li:not(:last-child) {
+  margin-right: 30px;
+}
+.about-us-img {
+  width: 370px;
+  height: 294px;
+}
+.our-team-h2 {
+  padding-bottom: 50px;
+}
+.our-team-ul {
+  display: flex;
+  list-style: none;
+  padding-bottom: 154px;
+}
+.our-team-img {
+  width: 270px;
+  height: 260px;
+}
+.our-team-li:not(:last-child) {
+  margin-right: 30px;
+}
+.our-team-h4 {
+  padding-right: 183px;
+}
+.our-team-p {
+  padding-right: 162px;
+}
+.footer-ul {
+  display: block;
   list-style: none;
 }
-.advantages-title::before{
-    content:"" ;
-    background-image: url("./img/antenna1\(1\).png");
-  display: block;
-  width: 70px;
-  height: 70px;
-  margin-left: 100px;
-  -webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.75);
-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.75);
-  
+.footer-address {
+  padding-top: 20px;
+  padding-bottom: 9px;
 }
-.advantages-title2::before{
-    content:"" ;
-    background-image: url("./img/clock1\(1\).png");
-  display: block;
-  width: 70px;
-  height: 70px;
-  margin-left: 100px;
-  -webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.75);
-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.75);
+
+.footer-contact {
+  padding-top: 9px;
 }
-.advantages-title3::before{
-    content:"" ;
-    background-image: url("./img/diagram1\(2\).png");
-  display: block;
-  width: 70px;
-  height: 70px;
-  margin-left: 100px;
-  -webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.75);
-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.75);
+
+.hero-title {
+  text-align: center;
+  color: var(--title);
 }
-.advantages-title4::before{
-    content:"" ;
-    background-image: url("./img/astronaut1\(1\).png");
+
+.about-us-h2 {
+  text-align: center;
+}
+
+.our-team-h2 {
+  text-align: center;
+}
+
+.svg1 {
+  content: "";
+  background-image: url("./img/antenna1\(1\).png");
   display: block;
   width: 70px;
   height: 70px;
   margin-left: 100px;
-  -webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.75);
-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.75);
+}
+.svg2 {
+  content: "";
+  background-image: url("./img/clock1\(1\).png");
+  display: block;
+  width: 70px;
+  height: 70px;
+  margin-left: 100px;
+}
+.svg3 {
+  content: "";
+  background-image: url("./img/diagram1\(2\).png");
+  display: block;
+  width: 70px;
+  height: 70px;
+  margin-left: 100px;
+}
+.svg4 {
+  content: "";
+  background-image: url("./img/astronaut1\(1\).png");
+  display: block;
+  width: 70px;
+  height: 70px;
+  margin-left: 100px;
 }
 
 .hero-button {
-    display: block;
-    width: 216px;
-    height: 50px;
-    margin: 0 auto;
-    background-color: var(--button);
-    color: var(--title);
-    border: none;
-    outline: none;
-    margin-top: 30px;
+  display: block;
+  width: 216px;
+  height: 50px;
+  margin: 0 auto;
+  background-color: var(--button);
+  color: var(--title);
+  border: none;
+  outline: none;
+  margin-top: 30px;
 }
 
 :root {
-    --button: #2196F3;
-    --title: #FFFFFF;
-    --chor: #212121;
-    --seriy: #757575;
-    --beliy: #F5F4FA;
-    --chornil: #000000;
-    --charch: #2F303A;
-    --sirom: #C4C4C4;
-    --balni: #ECECEC;
-
+  --button: #2196f3;
+  --title: #ffffff;
+  --chor: #212121;
+  --seriy: #757575;
+  --beliy: #f5f4fa;
+  --chornil: #000000;
+  --charch: #2f303a;
+  --sirom: #c4c4c4;
+  --balni: #ececec;
 }
 
 .our-team-li {
-    -webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.75);
-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.75);
 }
 
 .about-us-img {
-    -webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.75);
-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.75);
 }
 
 .overlay {
+  width: 100%;
+  position: absolute;
+  width: 1200px;
+  height: 480px;
+  left: 0px;
+  top: 0px;
 
-width: 100%;
-position: absolute;
-width: 1200px;
-height: 480px;
-left: 0px;
-top: 0px;
-
-background: rgba(47, 48, 58, 0.4);
-padding-top: 200px;
-
+  background: rgba(47, 48, 58, 0.4);
+  padding-top: 200px;
 }
 
 .our-team {
-    background-color: var(--beliy);
+  background-color: var(--beliy);
 }
 
 .footer {
-    background-color: var(--charch);
+  background-color: var(--charch);
+}
+
+.advantages-title {
+  padding-top: 55px;
+}
+.advantages-title2 {
+  padding-top: 55px;
+}
+.advantages-title3 {
+  padding-top: 55px;
+}
+.advantages-title4 {
+  padding-top: 55px;
+}
+
+.mail {
+  width: 16px;
+  height: 12px;
+}
+
+.ul-a {
+  margin-right: 30px;
+  margin-left: 10px;
+}
+
+.phone {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+.ul-a2 {
+  width: 122px;
+  height: 16px;
+}
+
+.glub {
+  display: flex;
+  list-style: none;
+}
+
+.liop:not(:last-child) {
+  margin-right: 40px;
+}
+
+.brows {
+  width: 20px;
+  height: 20px;
+}
+
+.us-ul {
+  display: flex;
+  list-style: none;
+}
+
+.klin {
+  width: 106px;
+  height: 60px;
+}
+
+.klin {
+  margin-left: 94px;
+}
+
+.alw-users {
+  text-align: center;
+  padding-bottom: 44px;
 }
