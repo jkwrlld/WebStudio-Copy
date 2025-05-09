@@ -73,11 +73,22 @@
 }
 
 .about-us-h2 {
-  padding-top: 132px;
-  padding-bottom: 50px;
+  color: var(--chor);
+  color: #212121;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.08px;
+  padding-top: 94px;
+  margin-bottom: 50px;
 }
 .about-us-ul {
   display: flex;
+  width: 370px;
+  height: 294px;
+  flex-shrink: 0;
   list-style: none;
   padding-bottom: 174px;
 }
@@ -88,6 +99,11 @@
   width: 370px;
   height: 294px;
 }
+
+.our-team {
+  padding-top: 188px;
+}
+
 .our-team-h2 {
   padding-bottom: 50px;
 }
