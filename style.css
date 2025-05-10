@@ -9,6 +9,11 @@
   padding-bottom: 25px;
 }
 
+abbr {
+  color: #2196f3;
+  font-family: Ralewa;
+}
+
 .header svg {
   width: 16px;
   height: 12px;
