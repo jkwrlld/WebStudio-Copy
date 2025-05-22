@@ -21,6 +21,45 @@
     <title>Document</title>
   </head>
   <body>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button data-modal-close>X</button>
+        <h3 class="modal-h3">Залишне нам свої дані, ми вам передзвонимо</h3>
+        <p>Ім'я</p>
+        <div class="div-position">
+          <input class="modal-input" type="text" />
+          <svg class="position-svg">
+            <use href="./secsvg/symbol-defs.svg#icon-person-b"></use>
+          </svg>
+        </div>
+        <p>Телефон</p>
+        <div class="div-position">
+          <input class="modal-input" type="text" />
+          <svg class="position-svg">
+            <use href="./secsvg/symbol-defs.svg#icon-phone-b"></use>
+          </svg>
+        </div>
+        <p>Пошта</p>
+        <div class="div-position">
+          <input class="modal-input" type="text" />
+          <svg class="position-svg">
+            <use href="./secsvg/symbol-defs.svg#icon-email-b"></use>
+          </svg>
+        </div>
+        <p>Коментар</p>
+        <div class="div-position">
+          <input class="modal-input" type="text" />
+        </div>
+        <div class="div-flex">
+          <input type="checkbox" />
+          <p>Погоджуюся з розсилкою та</p>
+          <a href="">Умови договору</a>
+        </div>
+        <div class="center-button">
+          <button class="submit">Відправити</button>
+        </div>
+      </div>
+    </div>
     <header class="header">
       <div class="container">
         <nav class="nav">
@@ -29,7 +68,7 @@
               <h1 class="logo"><abbr class="webni">Web</abbr>Studio</h1>
             </li>
             <li class="nav-li">
-              <a class="nav-links" href="./index.html">Студія</a>
+              <a class="nav-links current" href="./index.html">Студія</a>
             </li>
             <li class="nav-li">
               <a class="nav-links" href="./portfolio.html">Портфоліо</a>
@@ -61,7 +100,9 @@
       <section class="hero">
         <div class="container overlay">
           <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-          <button class="hero-button" type="button">Замовити послугу</button>
+          <button data-modal-open class="hero-button" type="button">
+            Замовити послугу
+          </button>
         </div>
       </section>
       <section class="advantages">
@@ -392,8 +433,16 @@
               </li>
             </ul>
           </div>
+          <div class="footer-3">
+            <p class="div-p">Підпишіться на розсилку</p>
+            <div class="input-div">
+              <input class="footer-input" type="text" />
+              <button class="footer3-button">Підписатися</button>
+            </div>
         </div>
       </div>
     </footer>
+
+    <script src="./js/modal.js"></script>
   </body>
 </html>
