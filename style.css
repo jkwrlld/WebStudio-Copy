@@ -625,7 +625,24 @@ abbr {
 .div-position {
   position: relative;
 }
+
+.modal-h3 {
+  /* Залиште свої дані, ми вам передзвонимо */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
 .position-svg {
+  width: 18px;
+  height: 18px;
   position: absolute;
   top: 14px;
   bottom: 14px;
@@ -636,6 +653,12 @@ abbr {
   height: 40px;
   margin-bottom: 24px;
 }
+
+.modal-input-com {
+  width: 100%;
+  height: 120px;
+}
+
 .div-flex {
   display: flex;
   text-align: center;
@@ -677,8 +700,20 @@ abbr {
   color: #fff;
 }
 .div-p {
-  color: #fff;
-  font-size: 15px;
+  width: 207px;
+  height: 16px;
+  left: 815px;
+  top: 2748px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
 }
 .nav-links {
   position: relative;
@@ -700,4 +735,8 @@ abbr {
 .nav-links:hover::after,
 .nav-links.current::after {
   display: block;
+}
+
+.hjk {
+  margin-left: 5px;
 }
