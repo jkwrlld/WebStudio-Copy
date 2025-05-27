@@ -687,14 +687,14 @@ abbr {
   margin-left: 93px;
 }
 .footer-input {
-  width: 358px;
-  height: 50px;
+  width: 308px;
+  height: 49px;
   border-color: #fff;
   background-color: #2f303a;
   color: #757575;
 }
 .footer3-button {
-  width: 150px;
+  width: 200px;
   height: 50px;
   background-color: #2196f3;
   color: #fff;
@@ -739,4 +739,29 @@ abbr {
 
 .hjk {
   margin-left: 5px;
+}
+
+.uio {
+  margin-left: 28px;
+  width: 110px;
+  height: 30px;
+  left: 1213px;
+  top: 2794px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 188% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
+}
+
+.plk {
+  margin-left: 10px;
 }
