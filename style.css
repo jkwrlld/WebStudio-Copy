@@ -719,8 +719,7 @@ abbr {
   text-underline-offset: auto;
   text-underline-position: from-font;
 }
-.kub {
-}
+
 .p-modal:first-child {
   margin-top: 12px;
 }
@@ -962,7 +961,7 @@ abbr {
 .svg-footer {
   width: 24px;
   height: 24px;
-  fill: #fffff;
+  fill: #ffffff;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
     transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
