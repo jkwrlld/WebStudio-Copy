@@ -8,11 +8,6 @@
   line-height: auto;
 }
 
-abbr {
-  color: #2196f3;
-  font-family: Ralewa;
-}
-
 .header svg {
   width: 16px;
   height: 12px;
@@ -27,40 +22,12 @@ abbr {
   fill: #2196f3;
 }
 
-.telephone a:hover {
+.phone_number a:hover {
   color: #2196f3;
 }
 
-.telephone:hover svg {
+.phone_number:hover svg {
   fill: #2196f3;
-}
-
-.nav {
-  color: var(--text-color);
-}
-
-.nav-list,
-.logo {
-  display: flex;
-}
-
-.logo {
-}
-
-.nav-li {
-  padding-right: 40px;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  list-style: none;
-}
-
-.nav-li:first-child {
-  padding-right: 93px;
-  padding-top: 24px;
-}
-
-.nav-li:nth-child(4) {
-  padding-right: 272px;
 }
 
 .advantages-ul {
@@ -78,6 +45,7 @@ abbr {
   background-image: url("./img2/Img\(22\).webp");
   background-repeat: no-repeat;
   position: relative;
+  width: 1238px;
 }
 
 .about-us-h2 {
@@ -272,13 +240,14 @@ abbr {
 .overlay {
   width: 100%;
   position: absolute;
-  width: 1200px;
+  width: 1238px;
   height: 480px;
   left: 0px;
   top: 0px;
 
   background: rgba(47, 48, 58, 0.4);
   padding-top: 200px;
+  /* Img Overlay */
 }
 
 .our-team {
@@ -858,13 +827,13 @@ abbr {
 
   color: #ffffff;
 }
-.nav-links {
+.ab {
   position: relative;
   text-decoration: none;
   color: black;
 }
 
-.nav-links::after {
+.ab::after {
   content: "";
   position: absolute;
   bottom: -2px;
@@ -875,8 +844,8 @@ abbr {
   display: none;
 }
 
-.nav-links:hover::after,
-.nav-links.current::after {
+.ab:hover::after,
+.ab.current::after {
   display: block;
 }
 
@@ -905,7 +874,7 @@ abbr {
   margin-left: 10px;
 }
 
-.nav-links {
+.ab {
   position: relative;
   display: inline-block;
   padding: 8px 0;
@@ -914,7 +883,7 @@ abbr {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav-links::after {
+.ab::after {
   content: "";
   position: absolute;
   left: 0;
@@ -927,8 +896,8 @@ abbr {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav-links:hover::after,
-.nav-links:focus::after {
+.ab:hover::after,
+.ab:focus::after {
   transform: scaleX(1);
 }
 
@@ -979,4 +948,117 @@ abbr {
   border-radius: 50%;
   width: 44px;
   height: 44px;
+}
+
+.a:hover {
+  color: #2196f3;
+}
+
+.flex {
+  display: flex;
+}
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header-a {
+  padding-top: 24px;
+  padding-bottom: 25px;
+  text-decoration: none;
+}
+.Web {
+  color: #2196f3;
+  font-family: Raleway;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
+}
+.Studio {
+  color: var(--chornil);
+  font-family: Raleway;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
+}
+.nav {
+  display: flex;
+}
+.header-list {
+  display: flex;
+  list-style: none;
+  margin-left: 92px;
+  color: var(--charch);
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  /* Активне посилання */
+}
+
+.ab {
+  color: var(--chor);
+  text-decoration: none;
+}
+
+.a {
+  text-decoration: none;
+}
+.a:hover {
+  cursor: pointer;
+  color: #2196f3;
+}
+.phone {
+  text-decoration: none;
+}
+.phone:hover {
+  cursor: pointer;
+  color: #2196f3;
+}
+.email {
+  list-style: none;
+
+  margin-right: 50px;
+}
+
+.header-svg:hover {
+  cursor: pointer;
+  color: #2196f3;
+}
+
+.phone_number {
+  list-style: none;
+}
+
+.list-item:not(:last-child) {
+  margin-right: 50px;
+}
+.list-info {
+  display: flex;
+  margin-left: 344px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  color: var(--paraghraphs);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+}
+
+.hero-title {
+  padding-top: 171px;
+}
+
+.header-svg {
+  align-items: center;
 }
