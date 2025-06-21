@@ -1,0 +1,86 @@
+.list-of-activities {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+.service-item {
+  position: relative;
+  width: 370px;
+  height: 404px;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+.card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 294px;
+  background: rgba(33, 150, 243, 0.95);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 14px;
+  /* Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу. */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+  text-align: left;
+}
+
+.image-item:not(:last-child) {
+  margin-right: 30px;
+}
+.image-item {
+  width: 370px;
+  height: 294px;
+  flex-shrink: 0;
+}
+.service-item:hover .card-overlay {
+  opacity: 1;
+}
+
+.type {
+  display: flex;
+  flex-direction: row;
+  padding-left: 24px;
+  padding-bottom: 20px;
+  line-height: calc(30 / 16);
+  color: #757575;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.48px;
+}
+
+.list-of-services {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  list-style: none;
+}
+.service-item {
+  width: 370px;
+  height: 404px;
+  flex-shrink: 0;
+  border: 1px solid #eee;
+  background: #fff;
+}

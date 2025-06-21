@@ -1,0 +1,97 @@
+.advantages-ul {
+  display: flex;
+  list-style: none;
+  padding-top: 94px;
+}
+.advantages-li:not(:last-child) {
+  margin-right: 30px;
+}
+
+.div-text {
+  background: rgba(47, 48, 58, 0.8);
+  width: 370px;
+  height: 70px;
+  flex-shrink: 0;
+  padding: 27px;
+
+  position: relative;
+  bottom: 73px;
+}
+
+.div-text p {
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+}
+
+.our-team {
+  padding-top: 188px;
+}
+
+.our-team-h2 {
+  padding-bottom: 50px;
+}
+.our-team-ul {
+  display: flex;
+  list-style: none;
+  padding-bottom: 154px;
+}
+.our-team-img {
+  width: 270px;
+  height: 260px;
+}
+.our-team-li:not(:last-child) {
+  margin-right: 30px;
+}
+.our-team-h4 {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  color: #212121;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.48px;
+}
+.svg1 {
+  content: "";
+  background-image: url("./img/antenna1\(1\).png");
+  display: block;
+  width: 70px;
+  height: 70px;
+  margin-left: 100px;
+}
+.svg2 {
+  content: "";
+  background-image: url("./img/clock1\(1\).png");
+  display: block;
+  width: 70px;
+  height: 70px;
+  margin-left: 100px;
+}
+.svg3 {
+  content: "";
+  background-image: url("./img/diagram1\(2\).png");
+  display: block;
+  width: 70px;
+  height: 70px;
+  margin-left: 100px;
+}
+.svg4 {
+  content: "";
+  background-image: url("./img/astronaut1\(1\).png");
+  display: block;
+  width: 70px;
+  height: 70px;
+  margin-left: 100px;
+}

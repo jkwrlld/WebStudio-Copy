@@ -1,0 +1,126 @@
+.header {
+  line-height: auto;
+}
+
+.header svg {
+  width: 16px;
+  height: 12px;
+  fill: #757575;
+}
+
+.email a:hover {
+  color: #2196f3;
+}
+
+.email:hover svg {
+  fill: #2196f3;
+}
+
+.phone_number a:hover {
+  color: #2196f3;
+}
+
+.phone_number:hover svg {
+  fill: #2196f3;
+}
+
+.a:hover {
+  color: #2196f3;
+}
+
+.flex {
+  display: flex;
+}
+
+.header-a {
+  padding-top: 24px;
+  padding-bottom: 25px;
+  text-decoration: none;
+}
+
+.Web {
+  color: #2196f3;
+  font-family: Raleway;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
+}
+.Studio {
+  color: #000000;
+  font-family: Raleway;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
+}
+.nav {
+  display: flex;
+}
+.header-list {
+  display: flex;
+  list-style: none;
+  margin-left: 92px;
+  color: var(--charch);
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  /* Активне посилання */
+}
+
+.ab {
+  color: #000000;
+  text-decoration: none;
+}
+
+.a {
+  text-decoration: none;
+}
+.a:hover {
+  cursor: pointer;
+  color: #2196f3;
+}
+.phone {
+  text-decoration: none;
+}
+.phone:hover {
+  cursor: pointer;
+  color: #2196f3;
+}
+.email {
+  list-style: none;
+
+  margin-right: 50px;
+}
+
+.header-svg:hover {
+  cursor: pointer;
+  color: #2196f3;
+}
+
+.phone_number {
+  list-style: none;
+}
+
+.list-item:not(:last-child) {
+  margin-right: 50px;
+}
+.list-info {
+  display: flex;
+  margin-left: 344px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  color: var(--paraghraphs);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+}

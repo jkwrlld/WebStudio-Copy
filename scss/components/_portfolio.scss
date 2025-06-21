@@ -1,0 +1,273 @@
+.a:hover {
+  color: #2196f3;
+}
+
+.email a:hover {
+  color: #2196f3;
+}
+
+.email:hover svg {
+  fill: #2196f3;
+}
+
+.phone_number a:hover {
+  color: #2196f3;
+}
+
+.phone_number:hover svg {
+  fill: #2196f3;
+}
+
+.flex {
+  display: flex;
+}
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header-a {
+  padding-top: 24px;
+  padding-bottom: 25px;
+  text-decoration: none;
+}
+.Web {
+  color: #2196f3;
+  font-family: Raleway;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
+}
+.Studio {
+  color: var(--titles);
+  font-family: Raleway;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
+}
+.nav {
+  display: flex;
+}
+
+.list-item:not(:last-child) {
+  margin-right: 50px;
+}
+.list-info {
+  display: flex;
+  margin-left: 344px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  color: var(--paraghraphs);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+}
+.a {
+  text-decoration: none;
+}
+.a:hover {
+  cursor: pointer;
+  color: #2196f3;
+}
+.phone {
+  text-decoration: none;
+}
+.phone:hover {
+  cursor: pointer;
+  color: #2196f3;
+}
+.email {
+  list-style: none;
+
+  margin-right: 50px;
+}
+
+.phone_number {
+  list-style: none;
+}
+
+list-item1 {
+  text-align: center;
+  width: 73px;
+  height: 38px;
+  flex-shrink: 0;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: 0.48px;
+  border-radius: 4px;
+
+  /* shadow-middle */
+  box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1),
+    0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
+}
+.list-item1:hover {
+  background-color: #2196f3;
+  color: #fff;
+  cursor: pointer;
+
+  transition: background-color 0.4s ease;
+}
+
+.list-item1 {
+  color: #000000;
+  text-align: center;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: calc(26 / 16);
+  letter-spacing: 0.48px;
+  width: 125px;
+  height: 38px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: #f5f4fa;
+}
+
+.header svg {
+  width: 16px;
+  height: 12px;
+  fill: #757575;
+}
+
+.email a:hover {
+  color: #2196f3;
+}
+
+.email:hover svg {
+  fill: #2196f3;
+}
+
+.header-list {
+  display: flex;
+  list-style: none;
+  margin-left: 92px;
+  color: var(--charch);
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  /* Активне посилання */
+}
+
+.ab {
+  color: var(--chor);
+  text-decoration: none;
+}
+
+.a {
+  text-decoration: none;
+}
+.a:hover {
+  cursor: pointer;
+  color: #2196f3;
+}
+.phone {
+  text-decoration: none;
+}
+.phone:hover {
+  cursor: pointer;
+  color: #2196f3;
+}
+.email {
+  list-style: none;
+
+  margin-right: 50px;
+}
+
+.header-svg:hover {
+  cursor: pointer;
+  color: #2196f3;
+}
+
+.Web {
+  color: #2196f3;
+  font-family: Raleway;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
+}
+.Studio {
+  color: var(--chornil);
+  font-family: Raleway;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
+}
+.nav {
+  display: flex;
+}
+
+.ab {
+  position: relative;
+  display: inline-block;
+  padding: 8px 0;
+  color: #212121;
+  text-decoration: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.ab::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  height: 4px;
+  width: 100%;
+  background-color: #2196f3;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.ab:hover::after,
+.ab:focus::after {
+  transform: scaleX(1);
+}
+
+.ab {
+  position: relative;
+  text-decoration: none;
+  color: black;
+}
+
+.ab::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #2196f3;
+  display: none;
+}
+
+.ab:hover::after,
+.ab.current::after {
+  display: block;
+}
+
+.topics:not(:last-child) {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-bottom: 56px;
+}

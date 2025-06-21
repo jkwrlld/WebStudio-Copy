@@ -453,10 +453,9 @@
   background-color: #2f303a;
 }
 
-.footerinfo {
+.info {
   display: flex;
 }
-
 .footer1 {
   margin-right: 70px;
 }
