@@ -409,11 +409,11 @@
   fill: #757575;
 }
 
-.email a:hover {
+.list-email a:hover {
   color: #2196f3;
 }
 
-.email:hover svg {
+.list-email:hover svg {
   fill: #2196f3;
 }
 
@@ -425,7 +425,7 @@
   fill: #2196f3;
 }
 
-.a:hover {
+.list-email-link:hover {
   color: #2196f3;
 }
 
@@ -479,30 +479,30 @@
   /* Активне посилання */
 }
 
-.ab {
+.header-list-link {
   color: #000000;
   text-decoration: none;
 }
 
-.a {
+.list-email-link {
   text-decoration: none;
 }
 
-.a:hover {
+.list-email-link:hover {
   cursor: pointer;
   color: #2196f3;
 }
 
-.phone {
+.list-phone {
   text-decoration: none;
 }
 
-.phone:hover {
+.list-phone:hover {
   cursor: pointer;
   color: #2196f3;
 }
 
-.email {
+.list-email {
   list-style: none;
   margin-right: 50px;
 }
@@ -531,6 +531,59 @@
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
+}
+
+.header-nav {
+  display: flex;
+}
+
+.header-list-link {
+  position: relative;
+  display: inline-block;
+  padding: 8px 0;
+  color: #212121;
+  text-decoration: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-list-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  height: 4px;
+  width: 100%;
+  background-color: #2196f3;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-list-link:hover::after,
+.header-list-link:focus::after {
+  transform: scaleX(1);
+}
+
+.header-list-link {
+  position: relative;
+  text-decoration: none;
+  color: black;
+}
+
+.header-list-link::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #2196f3;
+  display: none;
+}
+
+.header-list-link:hover::after,
+.header-list-link.current::after {
+  display: block;
 }
 
 .a:hover {
