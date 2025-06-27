@@ -203,3 +203,7 @@
 .footerinfo {
   display: flex;
 }
+
+.input-div-but-text {
+  @extend %flex;
+}

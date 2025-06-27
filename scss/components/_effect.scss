@@ -28,15 +28,15 @@
 
 .hero-title {
   text-align: center;
-  color: var(--title);
+  color: $sale-text;
 }
 .hero-title {
   padding-top: 171px;
 }
 
 .overlay {
-  width: 100%;
   position: absolute;
+  width: 100%;
   height: 480px;
   left: 0px;
   top: 0px;

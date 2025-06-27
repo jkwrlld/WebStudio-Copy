@@ -82,12 +82,12 @@
   cursor: pointer;
 }
 
-.brows {
+.icon-svg {
   width: 20px;
   height: 20px;
 }
 
-.brows {
+.icon-svg {
   width: 24px;
   height: 24px;
   fill: #afb1b8;
@@ -95,8 +95,8 @@
     transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.brows:hover,
-.brows:focus {
+.icon-svg:hover,
+.icon-svg:focus {
   fill: #2196f3;
   transform: scale(1.1);
 }
