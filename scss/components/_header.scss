@@ -30,6 +30,32 @@
 
 .flex {
   display: flex;
+  align-items: center;
+}
+
+.list-info {
+  display: flex;
+  margin-left: 304px;
+}
+.list-email {
+  list-style: none;
+
+  // margin-right: 50px;
+}
+
+.list-info {
+  display: flex;
+  width: 333px;
+  justify-content: space-between;
+  margin-left: 344px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  color: var(--paraghraphs);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
 }
 
 .header-a {
@@ -43,7 +69,7 @@
   @extend %webstud1;
 }
 .Studio {
-  color: $colorChorn;
+  color: #000000;
   @extend %webstud1;
 }
 .header-nav {
@@ -93,11 +119,6 @@
 //   cursor: pointer;
 //   color: #2196f3;
 // }
-.list-email {
-  list-style: none;
-
-  margin-right: 50px;
-}
 
 .header-svg:hover {
   cursor: pointer;
@@ -110,18 +131,6 @@
 
 .list-item:not(:last-child) {
   margin-right: 50px;
-}
-.list-info {
-  display: flex;
-  margin-left: 344px;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  color: var(--paraghraphs);
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  letter-spacing: 0.28px;
 }
 
 .header-nav {
