@@ -67,31 +67,23 @@
   content: "";
   background-image: url("./img/antenna1\(1\).png");
   display: block;
-  width: 70px;
-  height: 70px;
-  margin-left: 100px;
+  @extend %advant-svg;
 }
 .advantages-svg2 {
   content: "";
   background-image: url("./img/clock1\(1\).png");
   display: block;
-  width: 70px;
-  height: 70px;
-  margin-left: 100px;
+  @extend %advant-svg;
 }
 .advantages-svg3 {
   content: "";
   background-image: url("./img/diagram1\(2\).png");
   display: block;
-  width: 70px;
-  height: 70px;
-  margin-left: 100px;
+  @extend %advant-svg;
 }
 .advantages-svg4 {
   content: "";
   background-image: url("./img/astronaut1\(1\).png");
   display: block;
-  width: 70px;
-  height: 70px;
-  margin-left: 100px;
+  @extend %advant-svg;
 }

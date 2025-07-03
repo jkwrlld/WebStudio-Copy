@@ -14,6 +14,17 @@
   letter-spacing: 0.78px;
 }
 
+.advantages-svg4, .advantages-svg3, .advantages-svg2, .advantages-svg1 {
+  width: 70px;
+  height: 70px;
+  margin-left: 100px;
+}
+
+.icon-svg {
+  width: 20px;
+  height: 20px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -100,36 +111,24 @@
   content: "";
   background-image: url("./img/antenna1(1).png");
   display: block;
-  width: 70px;
-  height: 70px;
-  margin-left: 100px;
 }
 
 .advantages-svg2 {
   content: "";
   background-image: url("./img/clock1(1).png");
   display: block;
-  width: 70px;
-  height: 70px;
-  margin-left: 100px;
 }
 
 .advantages-svg3 {
   content: "";
   background-image: url("./img/diagram1(2).png");
   display: block;
-  width: 70px;
-  height: 70px;
-  margin-left: 100px;
 }
 
 .advantages-svg4 {
   content: "";
   background-image: url("./img/astronaut1(1).png");
   display: block;
-  width: 70px;
-  height: 70px;
-  margin-left: 100px;
 }
 
 .list-clients {
@@ -182,12 +181,15 @@
 }
 
 .hero-button {
+  border: none;
+  color: #ffffff;
+  border-radius: 4px;
   display: block;
   width: 216px;
   height: 50px;
   margin: 0 auto;
-  background-color: var(--button);
-  color: var(--title);
+  background-color: #2196f3;
+  color: #ffffff;
   border: none;
   outline: none;
   margin-top: 30px;
@@ -199,8 +201,19 @@
 }
 
 .hero-title {
+  font-size: 36px;
+  font-family: "Roboto";
+  font-weight: 900;
+  color: #ffffff;
   text-align: center;
   color: #ffffff;
+  /* Ефективні рішення для вашого бізнесу */
+  font-style: normal;
+  line-height: 60px;
+  /* or 136% */
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .hero-title {
@@ -1112,11 +1125,6 @@ list-item1 {
 .icon:hover {
   background-color: #2196f3;
   cursor: pointer;
-}
-
-.icon-svg {
-  width: 20px;
-  height: 20px;
 }
 
 .icon-svg {
