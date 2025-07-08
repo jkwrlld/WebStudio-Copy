@@ -1,10 +1,24 @@
 .header {
-  line-height: auto;
+  @media screen and (min-width: 768px) {
+    padding-top: 21px;
+    padding-bottom: 21px;
+  }
+  @media screen and (min-width: 1200px) {
+    padding-top: 24px;
+    padding-bottom: 25px;
+  }
 }
 
 .header svg {
-  width: 16px;
-  height: 12px;
+  @media screen and (min-width: 768px) {
+    width: 14px;
+    height: 10px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 16px;
+    height: 12px;
+  }
+
   fill: #757575;
 }
 
@@ -31,11 +45,17 @@
 .flex {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .list-info {
-  display: flex;
-  margin-left: 304px;
+  @media screen and (min-width: 768px) {
+    margin-left: 96px;
+  }
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    margin-left: 304px;
+  }
 }
 .list-email {
   list-style: none;
@@ -44,23 +64,33 @@
 }
 
 .list-info {
-  display: flex;
-  width: 333px;
-  justify-content: space-between;
-  margin-left: 344px;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  color: var(--paraghraphs);
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  letter-spacing: 0.28px;
+  @media screen and (min-width: 768px) {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+    letter-spacing: 0.02em;
+
+    color: #757575;
+  }
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    width: 333px;
+    justify-content: space-between;
+    margin-left: 344px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+  }
 }
 
 .header-a {
-  padding-top: 24px;
-  padding-bottom: 25px;
   text-decoration: none;
 }
 
@@ -76,18 +106,30 @@
   display: flex;
 }
 .header-list {
-  display: flex;
-  list-style: none;
-  margin-left: 92px;
-  font-family: Roboto;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  letter-spacing: 0.28px;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  /* Активне посилання */
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-left: 87px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+  }
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-left: 92px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+  }
 }
 
 .header-list-link {
