@@ -126,16 +126,16 @@
   color: #757575;
 }
 .footer3-button {
+  @media screen and (max-width: 1199px) {
+    display: block;
+  }
   width: 200px;
   height: 50px;
   background-color: #2196f3;
   color: #fff;
 }
 .div-p {
-  width: 207px;
-  height: 16px;
-  left: 815px;
-  top: 2748px;
+  text-align: center;
 
   font-family: "Roboto";
   font-style: normal;
@@ -169,21 +169,6 @@
   height: 44px;
 }
 
-.div-p {
-  width: 207px;
-  height: 16px;
-  left: 815px;
-  top: 2748px;
-
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
-
 .footer1 {
   margin-right: 70px;
 }
@@ -194,14 +179,33 @@
 }
 
 .footer {
-  height: 252px;
+  // height: 252px;
   background-color: #2f303a;
 }
 
 .footerinfo {
-  display: flex;
+  @media screen and (min-width: 768px) {
+    display: block;
+  }
+  @media screen and (min-width: 1200px) {
+    display: flex;
+  }
 }
 
 .input-div-but-text {
   @extend %flex;
+}
+
+.adaptive-tablet {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-div {
+  @media screen and (max-width: 1199px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }

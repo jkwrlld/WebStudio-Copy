@@ -26,3 +26,9 @@
   width: 370px;
   height: 294px;
 }
+
+.about-us {
+  @media screen and (max-width: 1199px) {
+    display: none;
+  }
+}

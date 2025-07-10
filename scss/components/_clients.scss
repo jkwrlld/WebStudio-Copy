@@ -4,8 +4,9 @@
     justify-content: center;
     display: grid;
     grid-template-columns: repeat(3, 170px);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 92px);
     grid-column-gap: 30px;
+    row-gap: 30px;
   }
   @media (min-width: 1200px) {
     display: flex;
@@ -13,6 +14,8 @@
   }
   display: flex;
   list-style: none;
+  margin-top: 50px;
+  margin-bottom: 94px;
 }
 
 .always-clients {
@@ -22,7 +25,6 @@
 
 .client {
   width: 170px;
-  margin-top: 50px;
   text-align: center;
   border-top: 3px;
   border-bottom: 3px;
@@ -30,7 +32,6 @@
   border-left: 3px;
   border-style: solid;
   border-color: #757575;
-  margin-bottom: 94px;
 }
 
 .client:hover svg {
