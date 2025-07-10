@@ -7,6 +7,14 @@
 }
 
 .hero-button {
+  @media screen and (min-width: 768px) {
+    width: 200px;
+    height: 50px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 216px;
+    height: 50px;
+  }
   @include effect-button(none, #ffffff, 4px);
   display: block;
   width: 216px;
@@ -29,7 +37,16 @@
 }
 
 .hero-title {
-  @include main-text(36px, "Roboto", 900, #ffffff);
+  @media screen and (min-width: 768px) {
+    @include main-text(26px, "Roboto", 900, #ffffff);
+    line-height: 42px;
+  }
+  @media screen and (min-width: 1200px) {
+    @include main-text(36px, "Roboto", 900, #ffffff);
+    line-height: 60px;
+  }
+  /* Ефективні рішення для вашого бізнесу */
+
   text-align: center;
   color: $sale-text;
   /* Ефективні рішення для вашого бізнесу */

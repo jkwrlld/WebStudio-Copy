@@ -1,4 +1,16 @@
 .list-clients {
+  @media (min-width: 768px) {
+    justify-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 170px);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 30px;
+  }
+  @media (min-width: 1200px) {
+    display: flex;
+    list-style: none;
+  }
   display: flex;
   list-style: none;
 }
@@ -21,9 +33,6 @@
   margin-bottom: 94px;
 }
 
-.client:not(:last-child) {
-  margin-right: 30px;
-}
 .client:hover svg {
   fill: #2196f3;
 }
