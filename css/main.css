@@ -602,6 +602,11 @@
   list-style: none;
 }
 
+@media screen and (max-width: 767px) {
+  .list-info {
+    display: none;
+  }
+}
 @media screen and (min-width: 768px) {
   .list-info {
     font-family: "Roboto";
