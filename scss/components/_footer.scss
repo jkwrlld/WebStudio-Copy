@@ -1,4 +1,7 @@
 .name-forfooter {
+  @media screen and (max-width: 1199px) {
+    text-align: center;
+  }
   color: #fff;
   font-family: Roboto;
   font-size: 14px;
@@ -135,7 +138,9 @@
   color: #fff;
 }
 .div-p {
-  text-align: center;
+  @media screen and (max-width: 1199px) {
+    text-align: center;
+  }
 
   font-family: "Roboto";
   font-style: normal;
