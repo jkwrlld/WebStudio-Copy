@@ -106,7 +106,10 @@
   @extend %webstud1;
 }
 .header-nav {
-  display: flex;
+  display: none;
+  @media screen and (min-width: 768) {
+    display: flex;
+  }
 }
 .header-list {
   @media screen and (min-width: 768px) {
@@ -176,10 +179,6 @@
 
 .list-item:not(:last-child) {
   margin-right: 50px;
-}
-
-.header-nav {
-  display: flex;
 }
 
 .header-list-link {
