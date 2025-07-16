@@ -9,7 +9,7 @@
   }
 }
 
-.header svg {
+.header-svg {
   @media screen and (min-width: 768px) {
     width: 14px;
     height: 10px;
@@ -95,6 +95,7 @@
 
 .header-a {
   text-decoration: none;
+  text-align: left;
 }
 
 .Web {
@@ -106,8 +107,13 @@
   @extend %webstud1;
 }
 .header-nav {
-  display: none;
-  @media screen and (min-width: 768) {
+  @media screen and (min-width: 320px) {
+    display: none;
+  }
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
+  @media screen and (min-width: 1200px) {
     display: flex;
   }
 }
@@ -246,4 +252,22 @@
 .header-list-link:hover::after,
 .header-list-link.current::after {
   display: block;
+}
+
+.mobile-menu {
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+  @media screen and (min-width: 1200px) {
+    display: none;
+  }
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.svg-mobile {
+  width: 26px;
+  height: 26px;
+  flex-shrink: 0;
 }

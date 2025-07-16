@@ -1,4 +1,11 @@
 .advantages-ul {
+  @media screen and (min-width: 320px) {
+    justify-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-row-gap: 30px;
+  }
   @media (min-width: 768px) {
     justify-items: center;
     justify-content: center;
@@ -19,6 +26,10 @@
 }
 .advantages-li:not(:last-child) {
   margin-right: 30px;
+}
+
+.advantages-title {
+  text-align: center;
 }
 
 .div-text {
@@ -49,6 +60,7 @@
   background-image: url("./img/antenna1\(1\).png");
   display: block;
   @extend %advant-svg;
+  align-items: center;
 }
 .advantages-svg2 {
   content: "";
@@ -67,4 +79,20 @@
   background-image: url("./img/astronaut1\(1\).png");
   display: block;
   @extend %advant-svg;
+}
+
+.advantages-p {
+  text-align: center;
+}
+
+.advantages-title2 {
+  text-align: center;
+}
+
+.advantages-title3 {
+  text-align: center;
+}
+
+.advantages-title4 {
+  text-align: center;
 }

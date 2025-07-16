@@ -46,6 +46,9 @@
 
 .footer-nav {
   padding-top: 60px;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
 }
 
 .footer-nav-logo {
@@ -118,8 +121,10 @@
 }
 
 .footer-3 {
+  @media screen and (min-width: 1200px) {
+    margin-left: 93px;
+  }
   padding-top: 72px;
-  margin-left: 93px;
 }
 .footer-input {
   width: 308px;
@@ -189,6 +194,9 @@
 }
 
 .footerinfo {
+  @media screen and (min-width: 320px) {
+    display: block;
+  }
   @media screen and (min-width: 768px) {
     display: block;
   }
@@ -202,11 +210,19 @@
 }
 
 .adaptive-tablet {
-  display: flex;
-  justify-content: space-between;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 .input-div {
+  @media screen and (min-width: 320px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   @media screen and (max-width: 1199px) {
     display: flex;
     flex-direction: column;
