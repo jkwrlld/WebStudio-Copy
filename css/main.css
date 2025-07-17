@@ -29,7 +29,6 @@
 .advantages-svg4, .advantages-svg3, .advantages-svg2, .advantages-svg1 {
   width: 70px;
   height: 70px;
-  margin-left: 100px;
 }
 
 .icon-svg {
@@ -124,9 +123,11 @@
 
 .advantages-svg1 {
   content: "";
-  background-image: url("./img/antenna1(1).png");
   display: block;
-  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .advantages-svg2 {
@@ -161,6 +162,15 @@
 
 .advantages-title4 {
   text-align: center;
+}
+
+.div-svg {
+  position: relative;
+  width: 450px;
+  height: 120px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: #f5f4fa;
 }
 
 .list-clients {
@@ -560,10 +570,6 @@
   height: 44px;
 }
 
-.footer1 {
-  margin-right: 70px;
-}
-
 .footer2 {
   margin-top: 72px;
   text-transform: uppercase;
@@ -611,6 +617,10 @@
     justify-content: center;
     align-items: center;
   }
+}
+
+.footer {
+  text-align: center;
 }
 
 @media screen and (min-width: 768px) {
@@ -661,7 +671,7 @@
 .flex {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 @media screen and (min-width: 768px) {
