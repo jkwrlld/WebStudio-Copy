@@ -134,18 +134,30 @@
   content: "";
   background-image: url("./img/clock1(1).png");
   display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .advantages-svg3 {
   content: "";
   background-image: url("./img/diagram1(2).png");
   display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .advantages-svg4 {
   content: "";
   background-image: url("./img/astronaut1(1).png");
   display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .advantages-p {
@@ -547,6 +559,15 @@
     text-align: center;
   }
 }
+@media screen and (min-width: 1200px) {
+  .div-p {
+    text-align: left;
+  }
+}
+
+.div-p {
+  margin-bottom: 20px;
+}
 
 .svg-footer {
   width: 24px;
@@ -604,8 +625,6 @@
 
 @media screen and (min-width: 320px) {
   .input-div {
-    display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
   }
@@ -1440,8 +1459,6 @@ list-item1 {
 }
 
 .modal {
-  width: 528px;
-  height: 650px;
   flex-direction: row-reverse;
   position: relative;
   left: 50%;
@@ -1451,6 +1468,24 @@ list-item1 {
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
   transform: translate(-50%, -50%);
   z-index: 20;
+}
+@media screen and (min-width: 320px) {
+  .modal {
+    width: 450px;
+    height: 609px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .modal {
+    width: 450px;
+    height: 609px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .modal {
+    width: 528px;
+    height: 581px;
+  }
 }
 
 .is-hidden {
@@ -1497,7 +1532,7 @@ list-item1 {
 
 .input {
   width: 100%;
-  padding: 10px 10px 10px 36px; /* зліва місце під іконку */
+  padding: 10px 10px 10px 36px;
   border: 1px solid #ccc;
   border-radius: 6px;
   font-size: 14px;
@@ -1531,7 +1566,7 @@ list-item1 {
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 171.429% */
+  line-height: 24px;
   letter-spacing: 0.42px;
   margin-top: 20px;
 }
@@ -1606,7 +1641,7 @@ list-item1 {
 
 .input-field {
   width: 100%;
-  padding: 10px 10px 10px 36px; /* зліва місце під іконку */
+  padding: 10px 10px 10px 36px;
   border: 1px solid #ccc;
   border-radius: 6px;
   font-size: 14px;
@@ -1663,10 +1698,6 @@ list-item1 {
 
 .div-flex {
   display: flex;
-}
-
-.div-p {
-  margin-bottom: 20px;
 }
 
 .mobile-menu {

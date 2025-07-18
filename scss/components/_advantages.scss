@@ -70,18 +70,30 @@
   background-image: url("./img/clock1\(1\).png");
   display: block;
   @extend %advant-svg;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .advantages-svg3 {
   content: "";
   background-image: url("./img/diagram1\(2\).png");
   display: block;
   @extend %advant-svg;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .advantages-svg4 {
   content: "";
   background-image: url("./img/astronaut1\(1\).png");
   display: block;
   @extend %advant-svg;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .advantages-p {
