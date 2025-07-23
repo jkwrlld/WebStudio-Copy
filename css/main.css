@@ -1710,7 +1710,6 @@ list-item1 {
 
 .mobile-menu {
   width: 100%;
-  background-color: darkslategrey;
   position: absolute;
   height: 796px;
   top: 0;
@@ -1721,6 +1720,8 @@ list-item1 {
   padding-left: 40px;
   padding-right: 10px;
   transition: right 400ms linear;
+  background: #fff;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.04), 0px 2px 4px 0px rgba(0, 0, 0, 0.08), 0px 1px 3px 0px rgba(0, 0, 0, 0.16);
 }
 
 .mobile-close-menu {
@@ -1759,5 +1760,58 @@ list-item1 {
 }
 
 .mobile-header-list {
-  margin-bottom: 302px;
+  margin-bottom: 275px;
+}
+
+.mobile-list-phone {
+  color: #2196f3;
+  font-family: Roboto;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.68px;
+  margin-bottom: 32px;
+}
+
+.mobile-list-email-link {
+  color: #757575;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.48px;
+}
+
+.mobile-list-item {
+  margin-top: 48px;
+}
+
+.mobile-list-email {
+  margin-top: 32px;
+}
+
+.mobile-list-links {
+  display: flex;
+  margin-top: 64px;
+  margin-bottom: 48px;
+}
+
+.mobile-text-link {
+  color: #2196f3;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 122.222% */
+  letter-spacing: 0.36px;
+}
+
+.mobile-li-link:not(:last-child) {
+  margin-right: 20px;
+}
+
+.close-svg:hover {
+  color: #2196f3;
 }
