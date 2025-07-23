@@ -186,12 +186,16 @@ a {
 }
 
 .div-svg {
-  position: relative;
+  position: absolute;
   width: 450px;
   height: 120px;
   flex-shrink: 0;
   border-radius: 4px;
   background: #f5f4fa;
+}
+
+.advantages-li {
+  margin-top: 94px;
 }
 
 .list-clients {
@@ -702,11 +706,6 @@ a {
   justify-content: space-between;
 }
 
-@media screen and (min-width: 768px) {
-  .list-info {
-    margin-left: 96px;
-  }
-}
 @media screen and (min-width: 1200px) {
   .list-info {
     display: flex;
