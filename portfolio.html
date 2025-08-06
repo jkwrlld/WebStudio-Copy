@@ -11,33 +11,70 @@
     <title>Document</title>
 </head>
 <body>
-    <header class="header">
+  <header class="header">
         <div class="container flex">
           <a class="header-a" href="./index.html">
             <b class="Web" style="color: #2196f3">Web</b
-            ><b class="Studio">Studio</b></a
+            ><b class="Studio" style="color: #000000;">Studio</b></a
           >
-          <nav class="nav">
+          <nav class="mobile-menu" id="mobile-menu">
+            <button id="close-menu" class="mobile-close-menu"><svg class="close-svg"><use href="./secsvg/symbol-defs.svg#icon-close_menu"></use></svg></button>
+            <ul class="mobile-header-list">
+              <li class="mobile-list-item"><a class="mobile-header-list-link curr" href="">Студія</a></li>
+              <li class="mobile-list-item"><a class="mobile-header-list-link" href="">Портфоліо</a></li>
+              <li class="mobile-list-item"><a class="mobile-header-list-link" href="#">Контакти</a></li>
+            </ul>
+            <ul class="mobile-list-info">
+              <li class="mobile-phone_number">
+              
+              <a class="mobile-list-phone" href="tel:+380961111111">+38 096 111 11 11</a>
+            </li>
+            <li class="mobile-list-email">
+              
+              <a class="mobile-list-email-link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            
+          </ul>
+          <ul class="mobile-list-links">
+            <li class="mobile-li-link">
+              <p class="mobile-text-link">Instagram</p>
+            </li>
+            <li class="mobile-li-link">
+              <p class="mobile-text-link">Twitter</p>
+            </li>
+            <li class="mobile-li-link">
+              <p class="mobile-text-link">Facebook</p>
+            </li>
+            <li class="mobile-li-link">
+              <p class="mobile-text-link">LinkedIn</p>
+            </li>
+          </ul>
+          </nav>
+          <nav class="header-nav">
             <ul class="header-list">
-              <li class="list-item"><a class="ab" href="./index.html">Студія</a></li>
-              <li class="list-item"><a class="ab current" href="./portfolio.html">Портфоліо</a></li>
-              <li class="list-item"><a class="ab" href="#">Контакти</a></li>
+              <li class="list-item"><a class="header-list-link current" href="./index.html">Студія</a></li>
+              <li class="list-item"><a class="header-list-link" href="./portfolio.html">Портфоліо</a></li>
+              <li class="list-item"><a class="header-list-link" href="#">Контакти</a></li>
             </ul>
           </nav>
-          <ul class="list-info-portfolio">
-            <li class="email">
+          <ul class="list-info">
+            <li class="list-email">
               <svg class="header-svg"><use href="./assets/images/symbol-defs.svg#icon-envelope"></use></svg>
-              <a class="a" href="mailto:info@devstudio.com"
+              <a class="list-email-link" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
             <li class="phone_number">
               <svg class="header-svg"><use href="./assets/images/symbol-defs.svg#icon-smartphone"></use></svg>
-              <a class="phone" href="tel:+380961111111">+38 096 111 11 11</a>
+              <a class="list-phone" href="tel:+380961111111">+38 096 111 11 11</a>
             </li>
           </ul>
+          <button class="mobile-svg" id="menu-toggle"><svg class="svg-mobile">
+            <use href="./img2/symbol-defs.svg#icon-menuburger"></use>
+          </svg></button>
         </div>
-      </header>
       <hr>
       <main class="main">
         <section class="main-section">
@@ -51,9 +88,14 @@
           </ul>
           <ul class="list-of-services">
             <li class="service-item">
-              <img class="image-item" src="./img2/img(13).webp" alt="">
+              <picture>
+              <source media="min-width:320px" srcset="./newimgportfolio/imgp1ort1xphn.webp 1x, ./newimgportfolio/imgp1ort2xphn.webp 2x">
+            <source media="min-width:768px" srcset="./newimgportfolio/imgp1ort1xtab.webp 1x, ./newimgportfolio/imgp1ort2xtab.webp 2x">
+            <source  media="(min-width:1200px)" srcset="./img2/img(13).webp 1x, ./newimgportfolio/imgp1ort2x.webp 2x">
+              <img class="image-item" src="./newimgportfolio/imgp1ort1xphn.webp" alt="">
                <p class="topic">Технокряк</p>
               <p class="type">Веб-сайт</p></img>
+              </picture>
               <div class="card-overlay">
                 Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
               </div
@@ -62,80 +104,120 @@
               
             </li>
             <li class="service-item">
-              <img class="image-item" src="./img2/img(14).webp" alt="">
+              <picture>
+              <source media="min-width:320px" srcset="./newimgportfolio/imgp2ort1xphn.webp 1x, ./newimgportfolio/imgp2ort2xphn.webp 2x">
+            <source media="min-width:768px" srcset="./newimgportfolio/imgp2ort1xtab.webp 1x, ./newimgportfolio/imgp2ort2xtab.webp 2x">
+            <source  media="(min-width:1200px)" srcset="./img2/img(14).webp 1x, ./newimgportfolio/imgp2ort2x.webp 2x">
+              <img class="image-item" src="./newimgportfolio/imgp2ort1xphn.webp" alt="">
               <p class="topic">Постер New Orlean vs Golden Star</p>
               <p class="type">Дизайн</p>
             </img>
+            </picture>
               <div class="card-overlay">
                 Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
               </div
               
             </li>
             <li class="service-item">
-              <img class="image-item" src="./img2/img(15).webp" alt="">
+              <picture>
+              <source media="min-width:320px" srcset="./newimgportfolio/imgp3ort1xphn.webp 1x, ./newimgportfolio/imgp3ort2xphn.webp 2x">
+            <source media="min-width:768px" srcset="./newimgportfolio/imgp3ort1xtab.webp 1x, ./newimgportfolio/imgp3ort2xtab.webp 2x">
+            <source  media="(min-width:1200px)" srcset="./img2/img(15).webp 1x, ./newimgportfolio/imgp3ort2x.webp 2x">
+              <img class="image-item" src="./newimgportfolio/imgp3ort1xphn.webp" alt="">
                 <p class="topic">Ресторан Seafood</p>
               <p class="type">Додаток</p>
               </img>
+              </picture>
               <div class="card-overlay">
                 Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
               </div
               
             </li>
             <li class="service-item">
-              <img class="image-item" src="./img2/img(16).webp" alt="">
+              <picture>
+              <source media="min-width:320px" srcset="./newimgportfolio/imgp4ort1xphn.webp 1x, ./newimgportfolio/imgp4ort2xphn.webp 2x">
+            <source media="min-width:768px" srcset="./newimgportfolio/imgp4ort1xtab.webp 1x, ./newimgportfolio/imgp4ort2xtab.webp 2x">
+            <source  media="(min-width:1200px)" srcset="./img2/img(16).webp 1x, ./newimgportfolio/imgp4ort2x.webp 2x">
+              <img class="image-item" src="./newimgportfolio/imgp4ort1xphn.webp" alt="">
                 <p class="topic">Проєкт Prime</p>
               <p class="type">Маркетинг</p>
               </img>
+              </picture>
               <div class="card-overlay">
                 Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
               </div
               
             </li>
             <li class="service-item">
-              <img class="image-item" src="./img2/img(17).webp" alt="">
+              <picture>
+              <source media="min-width:320px" srcset="./newimgportfolio/imgp5ort1xphn.webp 1x, ./newimgportfolio/imgp5ort2xphn.webp 2x">
+            <source media="min-width:768px" srcset="./newimgportfolio/imgp5ort1xtab.webp 1x, ./newimgportfolio/imgp5ort2xtab.webp 2x">
+            <source  media="(min-width:1200px)" srcset="./img2/img(17).webp 1x, ./newimgportfolio/imgp5ort2x.webp 2x">
+              <img class="image-item" src="./newimgportfolio/imgp5ort1xphn.webp" alt="">
                 <p class="topic">Проєкт Boxes</p>
               <p class="type">Додаток</p>
               </img>
+              </picture>
               <div class="card-overlay">
                 Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
               </div
               
             </li>
             <li class="service-item">
-              <img class="image-item" src="./img2/img(18).webp" alt="">
+              <picture>
+              <source media="min-width:320px" srcset="./newimgportfolio/imgp6ort1xphn.webp 1x, ./newimgportfolio/imgp6ort2xphn.webp 2x">
+            <source media="min-width:768px" srcset="./newimgportfolio/imgp6ort1xtab.webp 1x, ./newimgportfolio/imgp6ort2xtab.webp 2x">
+            <source  media="(min-width:1200px)" srcset="./img2/img(18).webp 1x, ./newimgportfolio/imgp6ort2x.webp 2x">
+              <img class="image-item" src="./newimgportfolio/imgp6ort1xphn.webp" alt="">
                 <p class="topic">Inspiration has no Borders</p>
               <p class="type">Веб-сайт</p>
               </img>
+              </picture>
               <div class="card-overlay">
                 Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
               </div
               
             </li>
             <li class="service-item">
-              <img class="image-item" src="./img2/img(19).webp" alt="">
+              <picture>
+              <source media="min-width:320px" srcset="./newimgportfolio/imgp7ort1xphn.webp 1x, ./newimgportfolio/imgp7ort2xphn.webp 2x">
+            <source media="min-width:768px" srcset="./newimgportfolio/imgp7ort1xtab.webp 1x, ./newimgportfolio/imgp7ort2xtab.webp 2x">
+            <source  media="(min-width:1200px)" srcset="./img2/img(19).webp 1x, ./newimgportfolio/imgp7ort2x.webp 2x">
+              <img class="image-item" src="./newimgportfolio/imgp7ort1xphn.webp" alt="">
                 <p class="topic">Видання Limited Edition</p>
               <p class="type">Дизайн</p>
               </img>
+              </picture>
               <div class="card-overlay">
                 Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
               </div
               
             </li>
             <li class="service-item">
-              <img class="image-item" src="./img2/img(20).webp" alt="">
+              <picture>
+              <source media="min-width:320px" srcset="./newimgportfolio/imgp8ort1xphn.webp 1x, ./newimgportfolio/imgp8ort2xphn.webp 2x">
+            <source media="min-width:768px" srcset="./newimgportfolio/imgp8ort1xtab.webp 1x, ./newimgportfolio/imgp8ort2xtab.webp 2x">
+            <source  media="(min-width:1200px)" srcset="./img2/img(20).webp 1x, ./newimgportfolio/imgp8ort2x.webp 2x">
+              <img class="image-item" src="./newimgportfolio/imgp8ort1xphn.webp" alt="">
                 <p class="topic">Проєкт LAB</p>
               <p class="type">Маркетинг</p>
               </img>
+              </picture>
               <div class="card-overlay">
                 Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
               </div
               
             </li>
             <li class="service-item">
-              <img class="image-item" src="./img2/img(21).webp" alt="">
+              <picture>
+              <source media="min-width:320px" srcset="./newimgportfolio/imgp9ort1xphn.webp 1x, ./newimgportfolio/imgp9ort2xphn.webp 2x">
+            <source media="min-width:768px" srcset="./newimgportfolio/imgp9ort1xtab.webp 1x, ./newimgportfolio/imgp9ort2xtab.webp 2x">
+            <source  media="(min-width:1200px)" srcset="./img2/img(21).webp 1x, ./newimgportfolio/imgp9ort2x.webp 2x">
+              <img class="image-item" src="./newimgportfolio/imgp9ort1xphn.webp" alt="">
                 <p class="topic">Growing Business</p>
               <p class="type">Додаток</p>
               </img>
+              </picture>
               <div class="card-overlay">
                 Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
               </div
@@ -147,20 +229,68 @@
         
       </main>
       <footer class="footer">
-        <div class="container">
-          <a class="logo_footer" href="./qwe.html"
-            ><b class="Webn" style="color: #2196f3">Web</b><b class="studio">Studio</b></a
-          >
-          <p class="footer-adress">
-            м. Київ, пр-т Лесі Українки, 26
-          </p>
-          <a class="footer-email" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-          <a class="footer-phone_number" href="tel:+380961111111"
-            >+38 096 111 11 11</a
-          >
+      <div class="container">
+        <div class="footerinfo">
+          <div class="adaptive-tablet">
+          <div class="footer1">
+            <ul class="footer-nav">
+              <li class="footer-logo logo">
+                <h2 class="webh2">Web<abbr class="studio">Studio</abbr></h2>
+              </li>
+              <li class="footer-adress adress">
+                <a href="">м. Київ, пр-т Лесі Українки, 26</a>
+              </li>
+              <li class="footer-mail mail">
+                <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+              </li>
+              <li class="footer-phone phone">
+                <a href="tel:+380961111111">+38 096 111 11 11</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer2">
+            <h3 class="name-forfooter">Приєднуйтесь</h3>
+            <ul class="list-svg-footer">
+              <li class="item-svg-footer">
+                <svg class="svg-footer">
+                  <use
+                    href="./assets/images/symbol-defs.svg#icon-instagram-2"
+                  ></use>
+                </svg>
+              </li>
+              <li class="item-svg-footer">
+                <svg class="svg-footer">
+                  <use
+                    href="./assets/images/symbol-defs.svg#icon-twitter-1"
+                  ></use>
+                </svg>
+              </li>
+              <li class="item-svg-footer">
+                <svg class="svg-footer">
+                  <use
+                    href="./assets/images/symbol-defs.svg#icon-facebook-1"
+                  ></use>
+                </svg>
+              </li>
+              <li class="item-svg-footer">
+                <svg class="svg-footer">
+                  <use
+                    href="./assets/images/symbol-defs.svg#icon-linkedin-1"
+                  ></use>
+                </svg>
+              </li>
+            </ul>
+          </div>
         </div>
-      </footer>
+          <div class="footer-3">
+            <p class="div-p">Підпишіться на розсилку</p>
+            <div class="input-div">
+              <input class="footer-input" type="text" placeholder="E-mail" />
+              <button class="footer3-button"><div class="input-div-but-text"<p class="input-div-but-p">Підписатися<img class="plk" src="assets/images/iconsend.png" alt=""></p></div></button>
+            </div>
+        </div>
+      </div>
+    </footer>
 </body>
 </html>
